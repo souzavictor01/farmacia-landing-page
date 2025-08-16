@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css',
 })
-export class HomeComponentComponent {}
+export class HomeComponentComponent {
+  // iamgePath: string = 'assets/images/headerfarmacia.png';
+
+  onButtonClick() {
+    console.log('Botão clicado!');
+  }
+}
