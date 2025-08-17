@@ -4,7 +4,6 @@
   justify-content: space-between;
   background-color: #2D7C7F;
   color: white;
-  padding: 2rem;
   flex-wrap: wrap;
 }
 
@@ -12,12 +11,14 @@
   flex: 1;
   min-width: 300px;
   margin-right: 2rem;
+  margin-left: 50px;
+  max-width: 50%;
 }
 
 .header-image {
-
 width: 429px;
 height: 348px;
+padding: 0px 150px;
 }
 
 .hero-text h2 {
@@ -40,23 +41,74 @@ height: 348px;
   transition: all 0.5s ease;
 }
 
-.sobre {
+.header-servicos {
+  display: flex;
+  padding: 5rem;
+  align-items: center;
+  justify-content: space-around;
+   background-color: #f0f0f0ce;
+
+}
+
+.serv-atendimento {
+  text-align: left;
+  padding: 30px 10px;
+  max-width: 260px;
+  cursor: pointer;
+}
+:hover.serv-atendimento {
+  transform: scale(1.15);
+  transition: all 0.5s ease;
+}
+
+.como-funciona {
+  text-align: center;
+  padding: 40px 20px;
+   background-color: #f0f0f0ce;
+
+}
+
+.como-funciona h2 {
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.steps {
   display: flex;
   align-items: center;
-  padding: 2rem;
+  justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
-.sobre-img img {
-  max-width: 200px;
-  border-radius: 50%;
-  margin-right: 2rem;
+.step {
+  text-align: center;
+  max-width: 220px;
 }
 
-.sobre-text {
-  flex: 1;
-  min-width: 300px;
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #2D7C7F;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin: 0 auto 15px;
+  font-weight: bold;
 }
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #2D7C7F;
+  max-width: 100px;
+  margin-top: -138px;
+}
+
 /* Responsivo*/
 @media (max-width: 768px) {
 
@@ -75,6 +127,7 @@ height: 348px;
 
 }
 }
+
 
 
 
