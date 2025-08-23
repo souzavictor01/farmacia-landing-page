@@ -59,21 +59,6 @@ padding: 0px 150px;
    background-color: #f0f0f0ce;
 }
 
-.titulo-entrega,
-.titulo-atendimento,
-.titulo-servatendimento {
-  font-family: "Open Sans";
-  font-weight: bold;
-  color: #4A5568;
-}
-
-.descricao-entrega,
-.descricao-atendimento,
-.descricao-servatendimento {
-   font-family: "Open Sans";
-   font-style: italic;
-   color: #4A5568;
-}
 
 .serv-atendimento {
   text-align: left;
@@ -81,6 +66,21 @@ padding: 0px 150px;
   max-width: 260px;
   cursor: pointer;
 }
+
+.serv-atendimento h3,
+.step h3{
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #4A5568;
+}
+
+.serv-atendimento p,
+.step p{
+  font-family: "Open Sans";
+  font-style: italic;
+  color: #4A5568;
+}
+
 :hover.serv-atendimento {
   transform: scale(1.15);
   transition: all 0.5s ease;
