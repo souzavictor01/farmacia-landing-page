@@ -10,6 +10,6 @@ export class HomeComponentComponent {
   // iamgePath: string = 'assets/images/headerfarmacia.png';
 
   onButtonClick() {
-    console.log('Botão clicado!');
+    window.open('https://www.google.com', '_blank');
   }
 }

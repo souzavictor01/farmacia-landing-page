@@ -134,6 +134,43 @@ padding: 0px 150px;
   margin-top: -138px;
 }
 
+.find-all {
+  background-color: #bbd8d8;
+  text-align: center; /* centraliza elementos inline/inline-block como o botão */
+  padding: 20px 0;
+}
+
+.find-all h2 {
+  text-align: center;
+  color: #4A5568;
+}
+
+.find-all p {
+  text-align: center;
+  color: #4A5568;
+}
+
+.btn-pedido-second {
+  text-align: center;
+  font-family: "Konkhmer Sleokchher";
+  background: #ffff;
+  color: #246467;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-color: #246467;
+  border: #246467 4px solid;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+:hover.btn-pedido-second {
+  background: white;
+  color: #246467;
+  transform: scale(1.15);
+  transition: all 0.5s ease;
+}
+
 /* Responsivo*/
 @media (max-width: 768px) {
 
